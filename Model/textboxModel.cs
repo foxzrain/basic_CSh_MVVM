@@ -16,7 +16,7 @@ namespace basic_mvvm.Model
     // create an object name tbModel
     public class tbModel : INotifyPropertyChanged
     {
-        private string _tbName;
+        private string? _tbName;
 
         // function get-set for tbModel parameter
         public string TBName

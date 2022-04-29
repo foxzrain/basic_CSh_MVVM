@@ -9,5 +9,6 @@
     <Grid>
         <!-- attach fragment -->
         <views:textboxView x:Name="textboxViewControl"/>
+        <views:comboBoxView x:Name="comboBoxViewControl"/>
     </Grid>
 </Window>
