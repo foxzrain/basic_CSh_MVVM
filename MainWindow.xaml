@@ -8,7 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <!-- attach fragment -->
-        <views:textboxView x:Name="textboxViewControl"/>
-        <views:comboBoxView x:Name="comboBoxViewControl"/>
+        <!--<views:textboxView x:Name="textboxViewControl"/>
+        <views:comboBoxView x:Name="comboBoxViewControl"/>-->
+        <views:tabControlView x:Name="tabControlViewControl"/>
     </Grid>
 </Window>

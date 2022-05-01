@@ -5,12 +5,18 @@
     <Compile Update="Views\comboBoxView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\tabControlView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\textboxView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\comboBoxView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\tabControlView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\textboxView.xaml">
